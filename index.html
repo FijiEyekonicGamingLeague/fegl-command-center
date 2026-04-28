@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FEGL Command Center — REIGNITE</title>
+  <meta name="description" content="Fiji Eyekonic Gaming League Command Center — fixtures, standings, players, results, ELO, cards, and archive." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="fire-bg"></div>
+  <header class="topbar">
+    <button class="brand" data-view="home" aria-label="Open home">
+      <img src="assets/fegl-logo.jpg" alt="FEGL logo" />
+      <span><strong>FEGL</strong><small>Command Center</small></span>
+    </button>
+    <nav class="desktop-nav" id="desktopNav"></nav>
+    <button class="primary small" data-view="submit">Submit</button>
+  </header>
+  <nav class="mobile-nav" id="mobileNav"></nav>
+  <main id="app" class="app"></main>
+  <footer class="footer">
+    <p class="eyebrow">Join the Fire</p>
+    <div class="socials">
+      <a href="#youtube-link-here">YouTube</a>
+      <a href="#facebook-link-here">Facebook</a>
+      <a href="#discord-invite-here">Discord</a>
+      <a href="#instagram-link-here">Instagram</a>
+      <a href="#tiktok-link-here">TikTok</a>
+    </div>
+    <p class="muted">Social links are placeholders. Replace them in <code>app.js</code> or later from the database <code>social_links</code> table.</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
